@@ -94,14 +94,6 @@ body {
     }
 }
 
-/* CSS para animação de hover em cartões */
-.card {
-    transition: transform 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-}
 
 .team-member img {
     border-radius: 50%;
@@ -116,7 +108,6 @@ body {
     height: 100vh;
     background: url('./Assets/fundo-home.jpg') no-repeat center center/cover;
     color: #fff;
-    /* Cor do texto para melhor contraste */
 }
 
 .home-section::before {
@@ -128,7 +119,6 @@ body {
     height: 100%;
     background: rgba(0, 0, 0, 0.611);
     backdrop-filter: blur(5px);
-    /* Ajuste a opacidade conforme necessário */
     z-index: 1;
 }
 
